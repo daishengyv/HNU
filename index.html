@@ -433,8 +433,9 @@
             });
             //关闭kb
             $('#kb').click(() => {
-                $('#kb').css('display', 'none')
-                $('#ssr-wrapper').css('display', 'none')
+//                 $('#kb').css('display', 'none')
+//                 $('#ssr-wrapper').css('display', 'none')
+                window.history.back(-1); 
             })
             // 
             var mySwiper = new Swiper('.swiper-container', {
